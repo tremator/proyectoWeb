@@ -1,0 +1,15 @@
+#container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+#login {
+  width: 50%; }
+
+body{
+  background-color: cornflowerblue;
+}
+
+/*# sourceMappingURL=Styles2.css.map */

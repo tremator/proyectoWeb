@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/Style.css">
+</head>
+<body>
+    <div class="navContainer">
+        <img src="./IMG/download.jpeg" alt="">
+        <div>
+            <button><a href="./Welcome.html"> Tablero </a></button>
+            <button> <a href="./NewRide.html"> Rides </a></button>
+            <button> <a href="./Ajustes.html"> Ajustes </a></button>
+        </div>
+    </div>
+    <div>
+        <h3>Rides</h3>
+        <p>Welcome  <i> Trematron  </i><img src="" alt=""></p>
+    </div>
+    <div>
+        <form action="Post">
+            <div id="formRideSerch">
+                <label for="Name">Nombre del Ride</label>
+                <input type="text" placeholder="Nombre">
+                <label for="Start">Inicio</label>
+                <input type="text" placeholder="Inicio">
+                <label for="End">Fin</label>
+                <input type="text" placeholder="Fin">
+                <label for="Description">Descripcion   </label>
+                <input type="text" placeholder="Descripcion">
+            </div>
+            
+        </form>
+    </div>
+    <hr>
+    <div>
+        <h4>Cuando</h4>
+        <div>
+            <form action="Post" id="formRidesTime">
+                <div id="formRidesContainer">
+                    <div>
+                        <label for="Salida">Salida</label>
+                        <input type="time" placeholder="Hora de salida">
+                        <label for="llegada">llegada</label>
+                        <input type="time" placeholder="llegada">
+                    </div>
+                    <div>
+                        <label for="Lunes"><input type="checkbox" name="Lunes">Lunes</label>
+                        
+                        <label for="Martes"><input type="checkbox" name="Martes">Martes</label>
+                        
+                        <label for="Miercoles"><input type="checkbox" name="Miercoles">Mercoles</label>
+                        
+                        <label for="Jueves"><input type="checkbox" name="Jueves">Jueves</label>
+                        
+                        <label for="Viernes"><input type="checkbox" name="Viernes">Viernes</label>
+                       
+                        <label for="Sabado"><input type="checkbox" name="Sabado">Sabado</label>
+                        
+                        <label for="Domingo"><input type="checkbox" name="Domingo">Domingo</label>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div>
+            <button>Cancel</button>
+            <button>Save</button>
+        </div>
+    </div>
+
+    <script src="./JS/ValidacionLogin.js"></script>
+
+</body>
+</html>
